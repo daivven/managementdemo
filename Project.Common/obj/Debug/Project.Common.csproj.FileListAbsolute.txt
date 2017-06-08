@@ -1,0 +1,10 @@
+F:\Project\Project.Common\bin\Debug\Project.Common.dll
+F:\Project\Project.Common\bin\Debug\Project.Common.pdb
+F:\Project\Project.Common\obj\Debug\ResolveAssemblyReference.cache
+F:\Project\Project.Common\obj\Debug\Project.Common.dll
+F:\Project\Project.Common\obj\Debug\Project.Common.pdb
+D:\【下载示例】\通用权限管理框架(有.NET的、JAVA的以及文档)合集\Project\Project.Common\bin\Debug\Project.Common.dll
+D:\【下载示例】\通用权限管理框架(有.NET的、JAVA的以及文档)合集\Project\Project.Common\bin\Debug\Project.Common.pdb
+D:\【下载示例】\通用权限管理框架(有.NET的、JAVA的以及文档)合集\Project\Project.Common\obj\Debug\ResolveAssemblyReference.cache
+D:\【下载示例】\通用权限管理框架(有.NET的、JAVA的以及文档)合集\Project\Project.Common\obj\Debug\Project.Common.dll
+D:\【下载示例】\通用权限管理框架(有.NET的、JAVA的以及文档)合集\Project\Project.Common\obj\Debug\Project.Common.pdb

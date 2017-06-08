@@ -1,0 +1,47 @@
+﻿/*!
+ * lhgcore Dialog Plugin StyleSheet
+ * Copyright (c) 2009 - 2011 By Li Hui Gang
+ */
+html{_background-image:url(about:blank);_background-attachment:fixed;}
+.lhgdialog{position:absolute;padding:0;margin:0;font:12px Tahoma,Arial,sans-serif;}
+
+.lhgdg_leftTop,.lhgdg_rightTop,.lhgdg_leftBottom,.lhgdg_rightBottom,.lhgdg_left,.lhgdg_right,.lhgdg_icon,a.lhgdg_xbtn,a.lhgdg_maxbtn,a.lhgdg_rebtn,a.lhgdg_minbtn{background-image:url(chrome/lhgdg_bg.gif);background-repeat:no-repeat;}
+
+.lhgdg_leftTop{width:5px;height:26px;background-position:-139px -8px;}
+.lhgdg_rightTop{width:5px;background-position:-146px -8px;}
+.lhgdg_leftBottom{width:5px;height:5px;background-position:-139px -2px;}
+.lhgdg_rightBottom{width:5px;background-position:-146px -2px;cursor:nw-resize;}
+
+.lhgdg_left,.lhgdg_right{background-repeat:repeat-y;}
+.lhgdg_left{background-position:-153px 0;}
+.lhgdg_right{background-position:-158px 0;}
+
+.lhgdg_top,.lhgdg_bottom{background:url(chrome/lhgdg_x.gif) repeat-x;font-size:0;}
+.lhgdg_top{background-position:0 0;cursor:move;}
+.lhgdg_bottom{background-position:0 -26px;}
+
+.lhgdg_title_icon{height:26px;}
+.lhgdg_icon{float:left;background-position:-121px 0;width:16px;height:16px;margin-top:4px;}
+.lhgdg_title{float:left;color:#fff;font-weight:bold;font-size:12px;height:16px;margin-top:5px;margin-top:7px\0;padding-left:5px;}
+
+a.lhgdg_xbtn,a.lhgdg_maxbtn,a.lhgdg_rebtn,a.lhgdg_minbtn{position:absolute;display:block;cursor:default;height:18px;top:1px;}
+a.lhgdg_xbtn{background-position:-75px 0;right:5px;width:44px;}
+a.lhgdg_xbtn:hover{background-position:-75px -18px;}
+a.lhgdg_maxbtn{background-position:-25px 0;right:49px;width:25px}
+a.lhgdg_maxbtn:hover{background-position:-25px -18px;}
+a.lhgdg_rebtn{background-position:-50px 0;right:49px;width:25px}
+a.lhgdg_rebtn:hover{background-position:-50px -18px;}
+a.lhgdg_minbtn{background-position:0 0;right:74px;width:25px;}
+a.lhgdg_minbtn:hover{background-position:0 -18px;}
+
+.lhgdg_inbox,.lhgdg_load{width:100%;height:100%;background-color:#fff;overflow:auto;}
+.lhgdg_load{text-align:center;font-weight:bold;}
+.lhgdg_load span{padding-left:20px;height:16px;background:url(chrome/wait.gif) no-repeat 0 0;}
+
+.lhgdg_btnBar{height:29px;background-color:#f6f6f6;border-top:1px solid #dadee5;}
+.lhgdg_btn_div{float:right;}
+a.lhgdg_button,a.lhgdg_button em{display:inline-block;height:21px;background:url(chrome/lhgdg_btn.gif) no-repeat;}
+a.lhgdg_button{text-decoration:none;background-position:0 0;padding-left:15px;color:#000;cursor:default;margin-right:5px;}
+a.lhgdg_button:hover{background-position:0 -42px;}
+a.lhgdg_button em{font-style:normal;background-position:right -21px;padding-right:15px;line-height:21px;line-height:24px\0;font-size:12px;}
+a.lhgdg_button:hover em{background-position:right -63px;}

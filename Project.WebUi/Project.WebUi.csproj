@@ -1,0 +1,295 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5362D95C-2C94-4216-B0AD-CCCD77D6BCC2}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Project.WebUi</RootNamespace>
+    <AssemblyName>Project.WebUi</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\style.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="images\butClose.gif" />
+    <Content Include="js\jquery.js" />
+    <Content Include="js\lhgcore.min.js" />
+    <Content Include="js\lhgdialog.min.js" />
+    <Content Include="js\My97DatePicker\calendar.js" />
+    <Content Include="js\My97DatePicker\config.js" />
+    <Content Include="js\My97DatePicker\lang\en.js" />
+    <Content Include="js\My97DatePicker\lang\zh-cn.js" />
+    <Content Include="js\My97DatePicker\lang\zh-tw.js" />
+    <Content Include="js\My97DatePicker\My97DatePicker.htm" />
+    <Content Include="js\My97DatePicker\skin\datePicker.gif" />
+    <Content Include="js\My97DatePicker\skin\default\datepicker.css" />
+    <Content Include="js\My97DatePicker\skin\default\img.gif" />
+    <Content Include="js\My97DatePicker\skin\WdatePicker.css" />
+    <Content Include="js\My97DatePicker\skin\whyGreen\bg.jpg" />
+    <Content Include="js\My97DatePicker\skin\whyGreen\datepicker.css" />
+    <Content Include="js\My97DatePicker\skin\whyGreen\img.gif" />
+    <Content Include="js\My97DatePicker\WdatePicker.js" />
+    <Content Include="js\skins\areo_blue.css" />
+    <Content Include="js\skins\areo_blue\ie6\bottom.png" />
+    <Content Include="js\skins\areo_blue\ie6\left.png" />
+    <Content Include="js\skins\areo_blue\ie6\leftBottom.png" />
+    <Content Include="js\skins\areo_blue\ie6\leftTop.png" />
+    <Content Include="js\skins\areo_blue\ie6\right.png" />
+    <Content Include="js\skins\areo_blue\ie6\rightBottom.png" />
+    <Content Include="js\skins\areo_blue\ie6\rightTop.png" />
+    <Content Include="js\skins\areo_blue\ie6\titBtn.gif" />
+    <Content Include="js\skins\areo_blue\ie6\top.png" />
+    <Content Include="js\skins\areo_blue\lhgdg_bg.png" />
+    <Content Include="js\skins\areo_blue\lhgdg_x.png" />
+    <Content Include="js\skins\areo_blue\wait.gif" />
+    <Content Include="js\skins\areo_gray.css" />
+    <Content Include="js\skins\areo_gray\ie6\bottom.png" />
+    <Content Include="js\skins\areo_gray\ie6\left.png" />
+    <Content Include="js\skins\areo_gray\ie6\leftBottom.png" />
+    <Content Include="js\skins\areo_gray\ie6\leftTop.png" />
+    <Content Include="js\skins\areo_gray\ie6\right.png" />
+    <Content Include="js\skins\areo_gray\ie6\rightBottom.png" />
+    <Content Include="js\skins\areo_gray\ie6\rightTop.png" />
+    <Content Include="js\skins\areo_gray\ie6\titbtn.gif" />
+    <Content Include="js\skins\areo_gray\ie6\top.png" />
+    <Content Include="js\skins\areo_gray\lhgdg_bg.png" />
+    <Content Include="js\skins\areo_gray\lhgdg_x.png" />
+    <Content Include="js\skins\areo_gray\wait.gif" />
+    <Content Include="js\skins\chrome.css" />
+    <Content Include="js\skins\chrome\lhgdg_bg.gif" />
+    <Content Include="js\skins\chrome\lhgdg_btn.gif" />
+    <Content Include="js\skins\chrome\lhgdg_x.gif" />
+    <Content Include="js\skins\chrome\wait.gif" />
+    <Content Include="js\skins\default.css" />
+    <Content Include="js\skins\default\ie6\bottom.png" />
+    <Content Include="js\skins\default\ie6\left.png" />
+    <Content Include="js\skins\default\ie6\leftBottom.png" />
+    <Content Include="js\skins\default\ie6\leftTop.png" />
+    <Content Include="js\skins\default\ie6\right.png" />
+    <Content Include="js\skins\default\ie6\rightBottom.png" />
+    <Content Include="js\skins\default\ie6\rightTop.png" />
+    <Content Include="js\skins\default\ie6\titBtn.gif" />
+    <Content Include="js\skins\default\ie6\top.png" />
+    <Content Include="js\skins\default\lhgdg_bg.png" />
+    <Content Include="js\skins\default\lhgdg_x.png" />
+    <Content Include="js\skins\default\wait.gif" />
+    <Content Include="js\skins\notitle.css" />
+    <Content Include="js\skins\notitle\ie6\bottom.png" />
+    <Content Include="js\skins\notitle\ie6\left.png" />
+    <Content Include="js\skins\notitle\ie6\leftBottom.png" />
+    <Content Include="js\skins\notitle\ie6\leftTop.png" />
+    <Content Include="js\skins\notitle\ie6\right.png" />
+    <Content Include="js\skins\notitle\ie6\rightBottom.png" />
+    <Content Include="js\skins\notitle\ie6\rightTop.png" />
+    <Content Include="js\skins\notitle\ie6\top.png" />
+    <Content Include="js\skins\notitle\lhgdg_bg.png" />
+    <Content Include="js\skins\notitle\lhgdg_x.png" />
+    <Content Include="js\skins\notitle\wait.gif" />
+    <Content Include="Login.aspx" />
+    <Content Include="SystemManage\MenuEdit.aspx" />
+    <Content Include="SystemManage\MenuList.aspx" />
+    <Content Include="SystemManage\PermissionSet.aspx" />
+    <Content Include="SystemManage\RoleEdit.aspx" />
+    <Content Include="SystemManage\RoleList.aspx" />
+    <Content Include="SystemManage\UserEdit.aspx" />
+    <Content Include="SystemManage\UserList.aspx" />
+    <Content Include="UserExit.aspx" />
+    <Content Include="Vcode.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="Welcome.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Code\MyBasePage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SystemManage\MenuEdit.aspx.cs">
+      <DependentUpon>MenuEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SystemManage\MenuEdit.aspx.designer.cs">
+      <DependentUpon>MenuEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SystemManage\MenuList.aspx.cs">
+      <DependentUpon>MenuList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SystemManage\MenuList.aspx.designer.cs">
+      <DependentUpon>MenuList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SystemManage\PermissionSet.aspx.cs">
+      <DependentUpon>PermissionSet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SystemManage\PermissionSet.aspx.designer.cs">
+      <DependentUpon>PermissionSet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SystemManage\RoleEdit.aspx.cs">
+      <DependentUpon>RoleEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SystemManage\RoleEdit.aspx.designer.cs">
+      <DependentUpon>RoleEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SystemManage\RoleList.aspx.cs">
+      <DependentUpon>RoleList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SystemManage\RoleList.aspx.designer.cs">
+      <DependentUpon>RoleList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SystemManage\UserEdit.aspx.cs">
+      <DependentUpon>UserEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SystemManage\UserEdit.aspx.designer.cs">
+      <DependentUpon>UserEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SystemManage\UserList.aspx.cs">
+      <DependentUpon>UserList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SystemManage\UserList.aspx.designer.cs">
+      <DependentUpon>UserList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserExit.aspx.cs">
+      <DependentUpon>UserExit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserExit.aspx.designer.cs">
+      <DependentUpon>UserExit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vcode.aspx.cs">
+      <DependentUpon>Vcode.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Vcode.aspx.designer.cs">
+      <DependentUpon>Vcode.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Welcome.aspx.cs">
+      <DependentUpon>Welcome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Welcome.aspx.designer.cs">
+      <DependentUpon>Welcome.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="js\My97DatePicker\skin\default\Thumbs.db" />
+    <None Include="js\My97DatePicker\skin\Thumbs.db" />
+    <None Include="js\My97DatePicker\skin\whyGreen\Thumbs.db" />
+    <None Include="js\skins\areo_blue\ie6\Thumbs.db" />
+    <None Include="js\skins\areo_blue\Thumbs.db" />
+    <None Include="js\skins\areo_gray\ie6\Thumbs.db" />
+    <None Include="js\skins\areo_gray\Thumbs.db" />
+    <None Include="js\skins\chrome\Thumbs.db" />
+    <None Include="js\skins\default\ie6\Thumbs.db" />
+    <None Include="js\skins\default\Thumbs.db" />
+    <None Include="js\skins\notitle\ie6\Thumbs.db" />
+    <None Include="js\skins\notitle\Thumbs.db" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Project.Bll\Project.Bll.csproj">
+      <Project>{2A7C6F6C-5D43-4B01-BD71-6B4C2C938418}</Project>
+      <Name>Project.Bll</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Project.Common\Project.Common.csproj">
+      <Project>{F1ABB114-85D6-4D39-B4CF-ECD1B896A756}</Project>
+      <Name>Project.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Project.Dal\Project.Dal.csproj">
+      <Project>{AF6A4BDC-2C1F-4F91-BCC3-87B85CC3A5F1}</Project>
+      <Name>Project.Dal</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Project.Model\Project.Model.csproj">
+      <Project>{CF6F615F-18A2-4AED-96C2-069E76094EE9}</Project>
+      <Name>Project.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v9.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>4119</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
