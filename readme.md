@@ -26,5 +26,5 @@ daiwen
 ##  ##
 使用前请修改Web.config中的数据库连接
 
-登陆帐号:  admin   111111
+登陆帐号:  admin   111111  
 
