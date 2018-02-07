@@ -22,7 +22,7 @@ namespace Project.Dal
 	/// <summary>
 	///Title: ArticleType类
 	///Description: ArticleType表SQLServer数据库操作实现代码
-	///@author xu
+	///@author daiwen
 	///@version 1.0.0.0
 	///@date 2012-9-21
 	///@modify 

@@ -15,7 +15,7 @@ namespace Project.Bll
 	
 	///Title: UserInfo类
 	///Description: UserInfo业务逻辑操作类
-	///@author xu
+    ///@author daiwen
 	///@version 1.0.0.0
 	///@date 2012-9-21
 	///@modify 

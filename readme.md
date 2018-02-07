@@ -4,7 +4,7 @@
 
 开发工具: sql2005+vs2008
 
-数据库文件:ProjectDB
+数据库文件:ProjectDB.rar
 
 建模工具：PowerDesigner 12.5
 
@@ -26,4 +26,3 @@
 
 登陆帐号1:  admin   111111
 
-登陆帐号2:  查看员  111111

@@ -10,7 +10,7 @@ namespace Project.Model
 	/// <summary>
 	///Title: UserInfo类
 	///Description: dbo.UserInfo数据表实体模型代码
-	///@author xu
+	///@author daiwen
 	///@version 1.0.0.0
 	///@date 2012-9-21
 	///@modify 
